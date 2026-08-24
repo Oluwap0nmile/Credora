@@ -53,6 +53,16 @@ The final Gradient Boosting model achieved the following evaluation results:
 | F1 Score | 51.4% |
 | ROC-AUC | 69.8% |
 
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- SMOTE
+- Joblib
+- Streamlit
+- Git & GitHub
 ## Key Features
 
 The most influential features identified during model evaluation were:
@@ -62,23 +72,11 @@ The most influential features identified during model evaluation were:
 | MAX_PAY_DELAY | 55.85% |
 | LIMIT_BAL | 25.56% |
 | AGE | 7.28% |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 | AVG_PAY_AMT | 5.51% |
 | AVG_BILL_AMT | 4.65% |
+
+## ⚠️ Responsible Use
+
+This application is designed to support loan risk assessment and demonstrate the application of machine learning in financial decision-making.
+
+The model prediction should be considered alongside other relevant customer and financial information rather than being used as the sole basis for lending decisions.
