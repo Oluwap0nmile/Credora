@@ -2,6 +2,12 @@
 End-to-end machine learning application for predicting customer loan default risk.
 The project combines data preprocessing, feature engineering, class-imbalance handling with SMOTE, model training, and an interactive Streamlit application for loan risk assessment.
 
+## Live Demo
+
+Try the deployed application here:
+
+https://credora-loanprediction.streamlit.app/
+
 ## Project Overview
 
 The goal of this project is to build a machine learning solution that can estimate a customer's probability of defaulting on a loan and classify the customer into a risk category.
