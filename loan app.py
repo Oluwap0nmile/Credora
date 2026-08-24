@@ -152,7 +152,7 @@ st.markdown(
 )
 
 if "limit_bal" not in st.session_state:
-        st.session_state["limit_bal"] = 50000.0, #limit bal should be at 50000 by default even when it's not set in the session state
+        st.session_state["limit_bal"] = 50000.0 #limit bal should be at 50000 by default even when it's not set in the session state
     
 limit_bal = st.number_input(
     "Credit Limit",
