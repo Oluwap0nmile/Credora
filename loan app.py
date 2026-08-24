@@ -107,7 +107,7 @@ with col1:
 with col2:
     # age should be between 18 and 100
     if "age" not in st.session_state:
-        st.session_state["age"] = 30 #age should be at 30 by default even when it's not set in the session state
+        st.session_state["age"] = 30  #age should be at 30 by default even when it's not set in the session state
 
     age = st.number_input(
         "Age",
@@ -151,10 +151,12 @@ st.markdown(
     unsafe_allow_html=True
 )
 
+if "limit_bal" not in st.session_state:
+        st.session_state["limit_bal"] = 50000.0, #limit bal should be at 50000 by default even when it's not set in the session state
+    
 limit_bal = st.number_input(
     "Credit Limit",
     min_value=0.0,
-    value=50000.0,
     step = 1000.0,
     help="The customer's assigned credit limit",
     key="limit_bal"
