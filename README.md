@@ -8,6 +8,9 @@ Try the deployed application here:
 
 https://credora-loanprediction.streamlit.app/
 
+## Application Preview
+<img width="1920" height="1080" alt="Screenshot 2026-08-24 155752" src="https://github.com/user-attachments/assets/d926833a-d9e6-474c-a1a8-6ecd206f54c5" />
+
 ## Project Overview
 
 The goal of this project is to build a machine learning solution that can estimate a customer's probability of defaulting on a loan and classify the customer into a risk category.
