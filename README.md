@@ -22,9 +22,14 @@ The application allows users to enter customer information and receive:
 - Low, Medium, or High risk classification
 - Customer assessment summary
 
-## Machine Learning Approach
+## Problem Statement
 
-The project uses a Gradient Boosting Classifier as the final model.
+Loan default can result in significant financial losses for lending institutions. The objective of this project is to use historical customer credit, billing, payment, and demographic information to predict the likelihood of a customer defaulting on their credit payment.
+
+The project demonstrates how machine learning can be used to support credit risk assessment while providing an interactive interface for exploring individual predictions.
+
+
+## Machine Learning Approach
 
 Key steps in the machine learning workflow include:
 
@@ -35,6 +40,16 @@ Key steps in the machine learning workflow include:
 5. Model training and evaluation
 6. Saving the trained model and scaler
 7. Building an interactive Streamlit application
+
+Several classification models were evaluated during the project, including:
+
+- Logistic Regression
+- Decision Tree
+- Random Forest
+- Gradient Boosting
+
+Gradient Boosting was selected as the final model based on its evaluation performance.
+
 
 ## Feature Engineering
 
@@ -56,7 +71,7 @@ The final Gradient Boosting model achieved the following evaluation results:
 | F1 Score | 51.4% |
 | ROC-AUC | 69.8% |
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - Python
 - Pandas
